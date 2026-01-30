@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import HeroContainer from "./components/HeroContainer";
 import FeaturesContainer from "./components/FeaturesContainer";
-import Main from "./components/main";
+import Main from "./components/Main";
 
 function App() {
   return (
