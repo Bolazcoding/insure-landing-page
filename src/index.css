@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --color-bg-primary: hsl(256, 26%, 20%);
+  --color-bg-secondary: hsl(216, 30%, 68%);
+
+  --color-text-primary: hsl(270, 9%, 17%);
+  --color-text-secondary: hsl(273, 4%, 51%);
+  --color-text-tertiary: hsl(0, 0%, 98%);
+
+  --font-serif-display: "DM Serif Display", serif;
+}
+
+@theme {
+  --color-bg-primary: hsl(256, 26%, 20%);
+  --color-bg-secondary: hsl(216, 30%, 68%);
+
+  --color-text-primary: hsl(270, 9%, 17%);
+  --color-text-secondary: hsl(273, 4%, 51%);
+  --color-text-tertiary: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+@layer base {
+  .navList {
+    @apply tracking-wider uppercase;
+  }
+
+  .navBtnList {
+    @apply uppercase text-text-primary border-2 border-text-primary px-4.5 py-1;
+  }
+
+  .bodyBtn {
+    @apply uppercase text-text-tertiary border-2 border-text-tertiary px-4.5 py-1;
+  }
+}
+
+@layer components {
+  .maxWidth {
+    @apply max-w-240 mx-auto;
+  }
+
+  .fontHeading {
+    font-family: var(--font-serif-display);
+  }
+}
