@@ -37,11 +37,11 @@ body {
   }
 
   .navBtnList {
-    @apply uppercase text-text-primary border-2 border-text-primary px-4.5 py-1;
+    @apply uppercase text-text-primary font-bold border-2 border-text-primary px-4.5 py-1;
   }
 
   .bodyBtn {
-    @apply uppercase text-text-tertiary border-2 border-text-tertiary px-4.5 py-1;
+    @apply uppercase text-text-tertiary border-2 border-text-tertiary text-[1.2rem] px-7.5 py-1.5;
   }
 }
 
