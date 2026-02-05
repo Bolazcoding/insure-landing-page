@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
 @import "tailwindcss";
 
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 :root {
   --color-bg-primary: hsl(256, 26%, 20%);
   --color-bg-secondary: hsl(216, 30%, 68%);
@@ -41,7 +47,11 @@ body {
 
 @layer components {
   .maxWidth {
-    @apply max-w-240 mx-auto;
+    @apply max-w-[90%] mx-auto;
+  }
+
+  .h {
+    @apply max-w-240;
   }
 
   .fontHeading {
