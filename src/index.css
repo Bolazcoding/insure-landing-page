@@ -37,11 +37,18 @@ body {
   }
 
   .navBtnList {
-    @apply uppercase text-text-primary font-bold border-2 border-text-primary px-4.5 py-1;
+    @apply uppercase text-text-primary font-bold border-2 border-text-primary px-4.5 py-1 hover:bg-bg-primary hover:text-text-tertiary cursor-pointer;
   }
 
   .bodyBtn {
     @apply uppercase text-text-tertiary border-2 border-text-tertiary text-[1.2rem] px-7.5 py-1.5;
+  }
+
+  .navFooterHeader {
+    @apply text-text-secondary text-[0.95rem] font-bold;
+  }
+  .navFooterList {
+    @apply text-text-primary text-[1.05rem] font-bold mt-4.5;
   }
 }
 
@@ -50,8 +57,8 @@ body {
     @apply max-w-[90%] mx-auto;
   }
 
-  .h {
-    @apply max-w-240;
+  .cursor {
+    @apply cursor-pointer;
   }
 
   .fontHeading {

@@ -2,7 +2,7 @@ import Features from "./Features";
 
 function FeaturesContainer() {
   return (
-    <section>
+    <section className="mt-60">
       <Features />
     </section>
   );

@@ -2,19 +2,17 @@ import Image from "./Image";
 
 function Features() {
   return (
-    <div className="maxWidth pt-15">
-      <span className="text-text-tertiary">
-        <ion-icon className="" name="remove-outline"></ion-icon>
-      </span>
+    <div className="maxWidth ">
+      <div className="w-47 h-0.5 bg-text-secondary" />
       <h2 className=" text-text-primary text-[5rem] fontHeading mt-10">
         We're different
       </h2>
-      <div className="flex gap-5 justify-between mt-9">
+      <div className="flex gap-5 justify-between mt-11">
         <div>
           <Image
             src="/images/icon-snappy-process.svg"
             alt="icon-snappy"
-            className="w-14 h-14"
+            className="w-16 h-16"
           />
           <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
             Snappy Process
@@ -28,7 +26,7 @@ function Features() {
           <Image
             src="/images/icon-affordable-prices.svg"
             alt="icon-affordable-prices"
-            className="w-14 h-14"
+            className="w-16 h-16"
           />
           <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
             Affordable Prices
@@ -42,7 +40,7 @@ function Features() {
           <Image
             src="/images/icon-people-first.svg"
             alt="icon-people-first"
-            className="w-14 h-14"
+            className="w-16 h-16"
           />
           <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
             People First

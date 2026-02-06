@@ -5,12 +5,12 @@ function Header() {
     <header className="maxWidth">
       <div className="flex items-center justify-between py-4">
         <Logo />
-        <nav>
+        <nav className="navList">
           <ul className="flex items-center justify-center gap-8 text-text-secondary text-[1.1rem] font-medium">
-            <li className="navList">How we work</li>
-            <li className="navList">Blog</li>
-            <li className="navList">Account</li>
-            <li className="navList">
+            <li className="cursor">How we work</li>
+            <li className="cursor">Blog</li>
+            <li className="cursor">Account</li>
+            <li className="cursor">
               <button className="navBtnList">View plans</button>
             </li>
           </ul>
