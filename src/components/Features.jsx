@@ -1,3 +1,5 @@
+import Image from "./Image";
+
 function Features() {
   return (
     <div className="maxWidth pt-15">
@@ -9,7 +11,11 @@ function Features() {
       </h2>
       <div className="flex gap-5 justify-between mt-9">
         <div>
-          <img src="/images/icon-snappy-process.svg" className="w-14 h-14" />
+          <Image
+            src="/images/icon-snappy-process.svg"
+            alt="icon-snappy"
+            className="w-14 h-14"
+          />
           <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
             Snappy Process
           </h3>
@@ -19,7 +25,11 @@ function Features() {
           </p>
         </div>
         <div>
-          <img src="/images/icon-affordable-prices.svg" className="w-14 h-14" />
+          <Image
+            src="/images/icon-affordable-prices.svg"
+            alt="icon-affordable-prices"
+            className="w-14 h-14"
+          />
           <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
             Affordable Prices
           </h3>
@@ -29,7 +39,11 @@ function Features() {
           </p>
         </div>
         <div>
-          <img src="/images/icon-people-first.svg" className="w-14 h-14" />
+          <Image
+            src="/images/icon-people-first.svg"
+            alt="icon-people-first"
+            className="w-14 h-14"
+          />
           <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
             People First
           </h3>

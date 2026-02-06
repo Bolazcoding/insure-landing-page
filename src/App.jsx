@@ -3,6 +3,7 @@ import HeroContainer from "./components/HeroContainer";
 import FeaturesContainer from "./components/FeaturesContainer";
 import Main from "./components/Main";
 import About from "./components/About";
+import FooterContainer from "./components/FooterContainer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <HeroContainer />
         <FeaturesContainer />
         <About />
+        <FooterContainer />
       </Main>
     </>
   );
