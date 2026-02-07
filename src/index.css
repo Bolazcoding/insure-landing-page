@@ -41,14 +41,24 @@ body {
   }
 
   .bodyBtn {
-    @apply uppercase text-text-tertiary border-2 border-text-tertiary text-[1.2rem] px-7.5 py-1.5;
+    @apply uppercase text-text-tertiary border-2 border-text-tertiary text-[1.2rem] font-bold px-9 py-2 hover:bg-text-tertiary hover:text-text-primary duration-300;
   }
 
   .navFooterHeader {
     @apply text-text-secondary text-[0.95rem] font-bold;
   }
+
   .navFooterList {
     @apply text-text-primary text-[1.05rem] font-bold mt-4.5;
+  }
+
+  .effectNav {
+    @apply hover:text-text-primary duration-300;
+  }
+
+  /* Tailwind @layer (optional but clean) */
+  .footerNav {
+    @apply hover:underline duration-300 cursor-pointer;
   }
 }
 

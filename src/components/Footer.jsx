@@ -10,7 +10,7 @@ function Footer() {
           <Image
             src="/images/icon-facebook.svg"
             alt="icon-facebook"
-            className="w-7 h-7 cursor"
+            className="w-7 h-7 cursor hover:bg-bg-primary transition-colors"
           />
           <Image
             src="/images/icon-twitter.svg"
@@ -36,11 +36,11 @@ function Footer() {
         <div>
           <nav className="navList">
             <p className="navFooterHeader">Our company</p>
-            <ul className="navFooterList flex flex-col gap-2">
-              <li>How we work</li>
-              <li>Why insure?</li>
-              <li>View plans</li>
-              <li>Reviews</li>
+            <ul className="navFooterList flex flex-col gap-2 ">
+              <li className="footerNav">How we work</li>
+              <li className="footerNav">Why insure?</li>
+              <li className="footerNav">View plans</li>
+              <li className="footerNav">Reviews</li>
             </ul>
           </nav>
         </div>
@@ -49,10 +49,10 @@ function Footer() {
           <nav className="navList">
             <p className="navFooterHeader">Help me</p>
             <ul className="navFooterList flex flex-col gap-2">
-              <li>Faq</li>
-              <li>Terms of use</li>
-              <li>Privacy Policy</li>
-              <li>Cookies</li>
+              <li className="footerNav">Faq</li>
+              <li className="footerNav">Terms of use</li>
+              <li className="footerNav">Privacy Policy</li>
+              <li className="footerNav">Cookies</li>
             </ul>
           </nav>
         </div>
@@ -61,9 +61,9 @@ function Footer() {
           <nav className="navList">
             <p className="navFooterHeader">Contact</p>
             <ul className="navFooterList flex flex-col gap-2">
-              <li>Sales</li>
-              <li>Support</li>
-              <li>Live chat</li>
+              <li className="footerNav">Sales</li>
+              <li className="footerNav">Support</li>
+              <li className="footerNav">Live chat</li>
             </ul>
           </nav>
         </div>
@@ -72,9 +72,9 @@ function Footer() {
           <nav className="navList">
             <p className="navFooterHeader">Others</p>
             <ul className="navFooterList flex flex-col gap-2">
-              <li>Careers</li>
-              <li>Press</li>
-              <li>Licenses</li>
+              <li className="footerNav">Careers</li>
+              <li className="footerNav">Press</li>
+              <li className="footerNav">Licenses</li>
             </ul>
           </nav>
         </div>

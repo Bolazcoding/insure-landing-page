@@ -6,11 +6,11 @@ function Header() {
       <div className="flex items-center justify-between py-4">
         <Logo />
         <nav className="navList">
-          <ul className="flex items-center justify-center gap-8 text-text-secondary text-[1.1rem] font-medium">
-            <li className="cursor">How we work</li>
-            <li className="cursor">Blog</li>
-            <li className="cursor">Account</li>
-            <li className="cursor">
+          <ul className="flex items-center justify-center gap-8 text-text-secondary text-[1.1rem] font-bold">
+            <li className="cursor effectNav">How we work</li>
+            <li className="cursor effectNav">Blog</li>
+            <li className="cursor effectNav">Account</li>
+            <li className="cursor effectNav">
               <button className="navBtnList">View plans</button>
             </li>
           </ul>
