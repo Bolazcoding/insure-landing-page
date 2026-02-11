@@ -32,7 +32,7 @@ function Footer() {
       <hr className="mt-9 text-text-secondary" />
       {/* <hr className="border-t border-dotted border-text-secondary"></hr> */}
       {/* <div className="w-full h-px bg-text-secondary" /> */}
-      <div className="flex gap-47 mt-12">
+      <div className="flex gap-44 mt-12 max-[1100px]:gap-32 max-[913px]:gap-22">
         <div>
           <nav className="navList">
             <p className="navFooterHeader">Our company</p>

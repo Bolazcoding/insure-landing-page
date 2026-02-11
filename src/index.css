@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
 @import "tailwindcss";
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 :root {
   --color-bg-primary: hsl(256, 26%, 20%);
   --color-bg-secondary: hsl(216, 30%, 68%);
@@ -41,7 +35,15 @@ body {
   }
 
   .bodyBtn {
-    @apply uppercase text-text-tertiary border-2 border-text-tertiary text-[1.2rem] font-bold px-9 py-2 hover:bg-text-tertiary hover:text-text-primary duration-300;
+    @apply uppercase text-text-tertiary border-2 border-text-tertiary text-[1.2rem] font-bold px-9 py-2 hover:bg-text-tertiary hover:text-text-primary duration-300 max-[1100px]:px-7 max-[950px]:mt-7;
+  }
+
+  .featureHeader {
+    @apply text-text-primary text-[2rem] font-normal mt-5 max-[950px]:text-[1.5rem];
+  }
+
+  .featureText {
+    @apply text-text-secondary text-[1.15rem] leading-relaxed mt-4 max-[950px]:text-[1.05rem];
   }
 
   .navFooterHeader {

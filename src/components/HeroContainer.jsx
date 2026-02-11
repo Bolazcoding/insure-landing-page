@@ -2,10 +2,11 @@ import HeroContent from "./HeroContent";
 
 function HeroContainer() {
   return (
-    <section className="bg-bg-primary h-[88vh]">
+    <section className="bg-bg-primary h-[620px] ">
       <HeroContent />
     </section>
   );
 }
 
 export default HeroContainer;
+// max-[1100px]:h-[90vh] max-[950px]:h-[82vh]

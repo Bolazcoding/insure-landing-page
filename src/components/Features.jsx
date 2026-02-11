@@ -4,7 +4,7 @@ function Features() {
   return (
     <div className="maxWidth ">
       <div className="w-47 h-0.5 bg-text-secondary" />
-      <h2 className=" text-text-primary text-[5rem] fontHeading mt-10">
+      <h2 className=" text-text-primary text-[5rem] fontHeading mt-10 max-[950px]:text-[4rem]">
         We're different
       </h2>
       <div className="flex gap-5 justify-between mt-11">
@@ -14,10 +14,8 @@ function Features() {
             alt="icon-snappy"
             className="w-16 h-16"
           />
-          <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
-            Snappy Process
-          </h3>
-          <p className="text-text-secondary text-[1.15rem] leading-normal mt-4">
+          <h3 className="featureHeader fontHeading">Snappy Process</h3>
+          <p className="featureText">
             Our application process can be completed in minutes, not hours.
             Don't get stuck filling in tedious forms.
           </p>
@@ -28,10 +26,8 @@ function Features() {
             alt="icon-affordable-prices"
             className="w-16 h-16"
           />
-          <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
-            Affordable Prices
-          </h3>
-          <p className="text-text-secondary text-[1.15rem] mt-4">
+          <h3 className="featureHeader fontHeading">Affordable Prices</h3>
+          <p className="featureText">
             We don't want you worrying about high monthly costs. Our prices may
             be low, but we still offer the best coverage possible
           </p>
@@ -42,10 +38,8 @@ function Features() {
             alt="icon-people-first"
             className="w-16 h-16"
           />
-          <h3 className="text-text-primary text-[2rem] fontHeading font-normal mt-5">
-            People First
-          </h3>
-          <p className="text-text-secondary text-[1.15rem] mt-4">
+          <h3 className="featureHeader fontHeading">People First</h3>
+          <p className="featureText">
             Our plans aren't full of conditions and clauses to prevent payouts.
             We make sure you're covered when you need it
           </p>

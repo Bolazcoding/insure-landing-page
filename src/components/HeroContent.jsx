@@ -4,10 +4,10 @@ function HeroContent() {
       <div>
         {/* <hr className="mt-7 text-text-secondary w-45" /> */}
         <div className="w-47 h-0.5 bg-text-secondary" />
-        <h1 className="text-text-tertiary text-[5.85rem] leading-20 fontHeading mt-10">
+        <h1 className="text-text-tertiary text-[5.8rem] leading-20 fontHeading mt-10 max-[1100px]:text-[4.8rem] max-[1100px]:leading-17 max-[950px]:text-[3.8rem] max-[950px]:leading-18 max-[913px]:leading-15">
           Humanizing your insurance.
         </h1>
-        <p className="text-text-tertiary/90 text-[1.2rem] leading-relaxed mt-8">
+        <p className="text-text-tertiary/90 text-[1.2rem] leading-relaxed mt-8 max-[1100px]:text-[1.15rem]">
           Get your life insurance coverage easier and faster. We blend our
           expertise and technology to help you find the plan that's right for
           you. Ensure you and your loved ones are protected.
@@ -17,7 +17,7 @@ function HeroContent() {
       <img
         src="/images/image-intro-desktop.jpg"
         alt="introDesktopImage"
-        className="h-150 w-200"
+        className="h-150 w-200 max-[1100px]:h-170 max-[1100px]:w-115 object-cover max-[950px]:w-95 max-[950px]:h-155"
       />
     </div>
   );
