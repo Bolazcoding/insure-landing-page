@@ -4,11 +4,11 @@ function Features() {
   return (
     <div className="maxWidth ">
       <div className="w-47 h-0.5 bg-text-secondary" />
-      <h2 className=" text-text-primary text-[5rem] fontHeading mt-10 max-[950px]:text-[4rem]">
+      <h2 className=" text-text-primary text-[5rem] fontHeading mt-10 max-[950px]:text-[3.8rem] max-[750px]:text-[3.3rem]">
         We're different
       </h2>
-      <div className="flex gap-5 justify-between mt-11">
-        <div>
+      <div className="flex gap-5 justify-between mt-11 max-[600px]:flex-col max-[600px]:text-center">
+        <div className="featureResponsive">
           <Image
             src="/images/icon-snappy-process.svg"
             alt="icon-snappy"
@@ -20,7 +20,7 @@ function Features() {
             Don't get stuck filling in tedious forms.
           </p>
         </div>
-        <div>
+        <div className="featureResponsive">
           <Image
             src="/images/icon-affordable-prices.svg"
             alt="icon-affordable-prices"
@@ -32,7 +32,7 @@ function Features() {
             be low, but we still offer the best coverage possible
           </p>
         </div>
-        <div>
+        <div className="featureResponsive">
           <Image
             src="/images/icon-people-first.svg"
             alt="icon-people-first"

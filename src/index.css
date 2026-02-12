@@ -39,19 +39,23 @@ body {
   }
 
   .featureHeader {
-    @apply text-text-primary text-[2rem] font-normal mt-5 max-[950px]:text-[1.5rem];
+    @apply text-text-primary text-[2rem] font-normal mt-5 max-[950px]:text-[1.5rem] max-[750px]:text-[1.3rem] max-[600px]:text-[1.7rem];
   }
 
   .featureText {
-    @apply text-text-secondary text-[1.15rem] leading-relaxed mt-4 max-[950px]:text-[1.05rem];
+    @apply text-text-secondary text-[1.15rem] leading-relaxed mt-4 max-[950px]:text-[1.05rem] max-[750px]:text-[0.88rem] max-[600px]:text-[1.1rem];
+  }
+
+  .featureResponsive {
+    @apply max-[600px]:flex max-[600px]:flex-col max-[600px]:items-center max-[600px]:justify-center;
   }
 
   .navFooterHeader {
-    @apply text-text-secondary text-[0.95rem] font-bold;
+    @apply text-text-secondary text-[0.95rem] font-bold max-[750px]:text-[0.85rem];
   }
 
   .navFooterList {
-    @apply text-text-primary text-[1.05rem] font-bold mt-4.5;
+    @apply text-text-primary text-[1.05rem] font-bold mt-4.5 max-[750px]:text-[0.88rem];
   }
 
   .effectNav {
@@ -66,7 +70,7 @@ body {
 
 @layer components {
   .maxWidth {
-    @apply max-w-[90%] mx-auto;
+    @apply max-w-[90%] mx-auto max-[600px]:max-w-[85%];
   }
 
   .cursor {
