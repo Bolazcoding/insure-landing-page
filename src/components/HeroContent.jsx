@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function HeroContent() {
   return (
     <div className="maxWidth flex gap-5 justify-center pt-20 max-[650px]:flex-col-reverse max-[650px]:max-w-full max-[650px]:pt-0 max-[650px]:pb-22">
@@ -12,7 +14,9 @@ function HeroContent() {
           expertise and technology to help you find the plan that's right for
           you. Ensure you and your loved ones are protected.
         </p>
-        <button className="bodyBtn mt-9 cursor">View plans</button>
+        <Link>
+          <button className="bodyBtn mt-9 cursor">View plans</button>
+        </Link>
       </div>
       <img
         src="/images/image-intro-desktop.jpg"

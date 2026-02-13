@@ -1,5 +1,6 @@
 import Image from "./Image";
 import Logo from "../../public/images/logo.svg?react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -37,10 +38,18 @@ function Footer() {
           <nav className="navList">
             <p className="navFooterHeader">Our company</p>
             <ul className="navFooterList flex flex-col gap-2 ">
-              <li className="footerNav">How we work</li>
-              <li className="footerNav">Why insure?</li>
-              <li className="footerNav">View plans</li>
-              <li className="footerNav">Reviews</li>
+              <li className="footerNav">
+                <Link>How we work</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Why insure?</Link>
+              </li>
+              <li className="footerNav">
+                <Link>View plans</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Reviews</Link>
+              </li>
             </ul>
           </nav>
         </div>
@@ -49,10 +58,18 @@ function Footer() {
           <nav className="navList">
             <p className="navFooterHeader">Help me</p>
             <ul className="navFooterList flex flex-col gap-2">
-              <li className="footerNav">Faq</li>
-              <li className="footerNav">Terms of use</li>
-              <li className="footerNav">Privacy Policy</li>
-              <li className="footerNav">Cookies</li>
+              <li className="footerNav">
+                <Link>Faq</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Terms of use</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Privacy Policy</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Cookies</Link>
+              </li>
             </ul>
           </nav>
         </div>
@@ -61,9 +78,15 @@ function Footer() {
           <nav className="navList">
             <p className="navFooterHeader">Contact</p>
             <ul className="navFooterList flex flex-col gap-2">
-              <li className="footerNav">Sales</li>
-              <li className="footerNav">Support</li>
-              <li className="footerNav">Live chat</li>
+              <li className="footerNav">
+                <Link>Sales</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Support</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Live chat</Link>
+              </li>
             </ul>
           </nav>
         </div>
@@ -72,9 +95,15 @@ function Footer() {
           <nav className="navList">
             <p className="navFooterHeader">Others</p>
             <ul className="navFooterList flex flex-col gap-2">
-              <li className="footerNav">Careers</li>
-              <li className="footerNav">Press</li>
-              <li className="footerNav">Licenses</li>
+              <li className="footerNav">
+                <Link>Careers</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Press</Link>
+              </li>
+              <li className="footerNav">
+                <Link>Licenses</Link>
+              </li>
             </ul>
           </nav>
         </div>

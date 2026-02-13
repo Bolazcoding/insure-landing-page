@@ -1,5 +1,6 @@
 import Logo from "../../public/images/logo.svg?react";
 import Image from "./Image";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,11 +9,19 @@ function Header() {
         <Logo />
         <nav className="navList">
           <ul className="flex items-center justify-center gap-8 text-text-secondary text-[1.1rem] font-bold max-[950px]:text-[1rem] max-[750px]:text-[0.87rem] max-[750px]:gap-5 max-[650px]:hidden">
-            <li className="cursor effectNav">How we work</li>
-            <li className="cursor effectNav">Blog</li>
-            <li className="cursor effectNav">Account</li>
             <li className="cursor effectNav">
-              <button className="navBtnList">View plans</button>
+              <NavLink>How we work</NavLink>
+            </li>
+            <li className="cursor effectNav">
+              <NavLink>Blog</NavLink>
+            </li>
+            <li className="cursor effectNav">
+              <NavLink>Account</NavLink>
+            </li>
+            <li className="cursor effectNav">
+              <NavLink>
+                <button className="navBtnList">View plans</button>
+              </NavLink>
             </li>
           </ul>
           <Image
