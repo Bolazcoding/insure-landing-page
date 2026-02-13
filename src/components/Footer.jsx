@@ -4,7 +4,7 @@ import Logo from "../../public/images/logo.svg?react";
 function Footer() {
   return (
     <div className="maxWidth">
-      <div className="flex justify-between">
+      <div className="flex items-center justify-between max-[600px]:flex-col max-[600px]:gap-7">
         <Logo />
         <div className="flex gap-6">
           <Image
@@ -32,7 +32,7 @@ function Footer() {
       <hr className="mt-9 text-text-secondary" />
       {/* <hr className="border-t border-dotted border-text-secondary"></hr> */}
       {/* <div className="w-full h-px bg-text-secondary" /> */}
-      <div className="flex gap-44 mt-12 max-[1100px]:gap-32 max-[913px]:gap-22 max-[750px]:gap-13">
+      <div className="flex items-center gap-44 mt-12 max-[1100px]:gap-32 max-[913px]:gap-22 max-[750px]:gap-13 max-[600px]:flex-col max-[600px]:text-center">
         <div>
           <nav className="navList">
             <p className="navFooterHeader">Our company</p>

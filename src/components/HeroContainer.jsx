@@ -2,7 +2,7 @@ import HeroContent from "./HeroContent";
 
 function HeroContainer() {
   return (
-    <section className="bg-bg-primary h-[620px] max-[650px]:h-[800px] ">
+    <section className="bg-bg-primary h-155 max-[650px]:h-full">
       <HeroContent />
     </section>
   );
