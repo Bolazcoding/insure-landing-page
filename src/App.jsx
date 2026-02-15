@@ -9,8 +9,8 @@ import FooterContainer from "./components/FooterContainer";
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Main>
-        <Header />
         <HeroContainer />
         <FeaturesContainer />
         <About />

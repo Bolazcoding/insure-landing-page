@@ -34,6 +34,10 @@ body {
     @apply uppercase text-text-primary font-bold border-2 border-text-primary px-4.5 py-1 hover:bg-bg-primary hover:text-text-tertiary cursor-pointer;
   }
 
+  .navMobileList {
+    @apply uppercase text-text-tertiary font-bold border-2 border-text-tertiary px-16 py-3 hover:bg-bg-primary hover:text-text-tertiary cursor-pointer mt-5;
+  }
+
   .bodyBtn {
     @apply uppercase text-text-tertiary border-2 border-text-tertiary text-[1.2rem] px-9 py-2 hover:bg-text-tertiary hover:text-text-primary duration-300 max-[1100px]:px-7 max-[950px]:mt-7 max-[500px]:text-[1.1rem] max-[325px]:text-[1rem] max-[325px]:leading-4.5;
   }
