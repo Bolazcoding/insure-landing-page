@@ -1,31 +1,26 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import Logo from "../../public/images/logo.svg?react";
 import Image from "./Image";
 import { NavLink } from "react-router-dom";
 import MobileNavMenu from "./MobileNavMenu";
-import PageNav from "./PageNav";
 
 function Header() {
   const [IsOpen, setIsOpen] = useState(false);
 
+  const toggleMenu = useCallback(() => setIsOpen((open) => !open), []);
+
   return (
     <>
       <header className="sticky top-0 z-50 bg-white shadow-md">
-        <div className="maxWidth flex items-center justify-between py-4 max-[650px]:py-6">
+        <div className="maxWidth flex items-center justify-between py-4">
           <Logo />
           <div>
             {IsOpen ? (
-              <button
-                className="min-[650px]:hidden"
-                onClick={() => setIsOpen(false)}
-              >
+              <button className="min-[650px]:hidden" onClick={toggleMenu}>
                 <Image src="/images/icon-close.svg" alt="icon-close" />
               </button>
             ) : (
-              <button
-                className="min-[650px]:hidden"
-                onClick={() => setIsOpen(true)}
-              >
+              <button className="min-[650px]:hidden" onClick={toggleMenu}>
                 <Image src="/images/icon-hamburger.svg" alt="icon-hamburger" />
               </button>
             )}

@@ -1,9 +1,20 @@
-const Image = ({ src, alt = "", className = "" }) => {
+import { memo } from "react";
+
+const Image = memo(({ src, alt = "", className = "" }) => {
   if (!src) {
     throw new Error("Image source (src) is required!");
   }
 
   return <img src={src} alt={alt} className={`object-contain ${className}`} />;
-};
+});
 
 export default Image;
+
+// const menuItems = useMemo(
+//   () => [
+//     { href: "/", label: "Home" },
+//     { href: "/about", label: "About" },
+//     { href: "/contact", label: "Contact" },
+//   ],
+//   [],
+// );

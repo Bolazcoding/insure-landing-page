@@ -1,6 +1,7 @@
+import { memo } from "react";
 import { NavLink } from "react-router-dom";
 
-function PageNav() {
+const PageNav = memo(() => {
   return (
     <>
       <ul className="flex flex-col items-center justify-center gap-8 text-center text-text-tertiary text-[1.4rem] font-bold mt-12">
@@ -19,6 +20,6 @@ function PageNav() {
       </ul>
     </>
   );
-}
+});
 
 export default PageNav;

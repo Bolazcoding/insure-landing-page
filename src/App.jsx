@@ -1,14 +1,21 @@
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import HeroContainer from "./components/HeroContainer";
-import FeaturesContainer from "./components/FeaturesContainer";
-import Main from "./components/Main";
-import About from "./components/About";
-import FooterContainer from "./components/FooterContainer";
+import { lazy } from "react";
+// import Header from "./components/Header";
+// import HeroContainer from "./components/HeroContainer";
+// import FeaturesContainer from "./components/FeaturesContainer";
+// import Main from "./components/Main";
+// import About from "./components/About";
+// import FooterContainer from "./components/FooterContainer";
+
+const Header = lazy(() => import("./components/Header"));
+const HeroContainer = lazy(() => import("./components/HeroContainer"));
+const FeaturesContainer = lazy(() => import("./components/FeaturesContainer"));
+const Main = lazy(() => import("./components/Main"));
+const About = lazy(() => import("./components/About"));
+const FooterContainer = lazy(() => import("./components/FooterContainer"));
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
       <Header />
       <Main>
         <HeroContainer />
@@ -16,7 +23,7 @@ function App() {
         <About />
         <FooterContainer />
       </Main>
-    </BrowserRouter>
+    </div>
   );
 }
 
