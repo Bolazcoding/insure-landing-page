@@ -3,7 +3,7 @@ import Image from "./Image";
 function Features() {
   return (
     <div className="maxWidth ">
-      <div className="w-47 h-0.5 bg-text-secondary max-[600px]:flex max-[600px]:text-center max-[600px]:justify-center" />
+      <div className="w-47 h-0.5 bg-text-secondary max-[600px]:flex max-[600px]:items-center max-[600px]:justify-center" />
       <h2 className=" text-text-primary text-[5rem] fontHeading mt-10 max-[950px]:text-[3.8rem] max-[750px]:text-[3.3rem] max-[600px]:text-[2.6rem] max-[600px]:text-center max-[325px]:text-[2.3rem]">
         We're different
       </h2>

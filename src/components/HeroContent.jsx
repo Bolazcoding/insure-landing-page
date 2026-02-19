@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 function HeroContent() {
   return (
     <div className="maxWidth flex gap-5 justify-center pt-20 max-[650px]:flex-col-reverse max-[650px]:max-w-full max-[650px]:pt-0 max-[650px]:pb-22">
-      <div className="max-[650px]:text-center max-[650px]:px-10 max-[650px]:pt-4">
+      <div className="max-[650px]:text-center max-[650px]:px-10 max-[650px]:pt-0">
         {/* <hr className="mt-7 text-text-secondary w-45" /> */}
         <div className="w-47 h-0.5 bg-text-secondary max-[650px]:hidden" />
-        <h1 className="text-text-tertiary text-[5.8rem] leading-20 fontHeading mt-10 max-[1100px]:text-[4.8rem] max-[1100px]:leading-17 max-[950px]:text-[3.8rem] max-[950px]:leading-18 max-[913px]:leading-15 max-[750px]:text-[3.3rem] max-[650px]:text-[4rem] max-[500px]:text-[3.1rem] max-[500px]:leading-13 max-[325px]:text-[2.6rem] max-[325px]:leading-11">
+        <h1 className="text-text-tertiary text-[5.8rem] leading-20 fontHeading mt-10 max-[1100px]:text-[4.8rem] max-[1100px]:leading-17 max-[950px]:text-[3.8rem] max-[950px]:leading-18 max-[913px]:leading-15 max-[750px]:text-[3.3rem] max-[650px]:text-[4rem] max-[500px]:text-[4rem] max-[400px]:leading-13 max-[400px]:text-[3.6rem] max-[370px]:text-[3.1rem] max-[325px]:text-[2.6rem] max-[325px]:leading-11">
           Humanizing your insurance.
         </h1>
         <p className="text-text-tertiary/90 text-[1.2rem] leading-relaxed mt-8 max-[1100px]:text-[1.15rem] max-[750px]:text-[1.05rem] max-[650px]:text-[1.2rem] max-[500px]:text-[1.1rem] max-[325px]:text-[1rem]">
