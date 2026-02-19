@@ -1,8 +1,9 @@
-import { useCallback, useState } from "react";
-import Logo from "../../public/images/logo.svg?react";
-import Image from "./Image";
+import { lazy, useCallback, useState } from "react";
 import { NavLink } from "react-router-dom";
+import Logo from "../../public/images/logo.svg?react";
 import MobileNavMenu from "./MobileNavMenu";
+
+const Image = lazy(() => import("./Image"));
 
 function Header() {
   const [IsOpen, setIsOpen] = useState(false);

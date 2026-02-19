@@ -2,13 +2,6 @@
 @import "tailwindcss";
 
 :root {
-  /* --color-bg-primary: hsl(256, 26%, 20%);
-  --color-bg-secondary: hsl(216, 30%, 68%);
-
-  --color-text-primary: hsl(270, 9%, 17%);
-  --color-text-secondary: hsl(273, 4%, 51%);
-  --color-text-tertiary: hsl(0, 0%, 98%); */
-
   --font-serif-display: "DM Serif Display", serif;
 }
 
@@ -66,7 +59,6 @@ body {
     @apply hover:text-text-primary duration-300;
   }
 
-  /* Tailwind @layer (optional but clean) */
   .footerNav {
     @apply hover:underline duration-300 cursor-pointer;
   }
